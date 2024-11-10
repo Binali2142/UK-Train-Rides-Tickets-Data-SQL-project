@@ -1,6 +1,6 @@
 # UK-Train-Rides-Tickets-Data-SQL-project
 
-![Train image](pexels-santesson89-9647525.jpg)
+![Train image](Train image.jpg)
 
 ## Objectives
 
