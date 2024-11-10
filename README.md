@@ -5,7 +5,7 @@
 This is my first project on my journey to becoming a data analyst, In this project, I analyzed UK train ticket sales data to gain insights into revenue, customer preferences, and common causes of delays. This analysis helps understand how and where revenue is generated, which stations and routes are popular, and the key factors that impact customer experiences, such as delays.
 
 ## Dataset
-The data for this project is sourced from the Maven analytics dataset.
+The data for this project is sourced from the Maven analytics dataset. <br>
 **Dataset Link** (https://mavenanalytics.io/data-playground?pageSize=10)
 Mock train ticket data for National Rail in the UK, from Jan to Apr 2024, including details on the type of ticket, the date & time for each journey, the departure & arrival stations, the ticket price, and more.
 
