@@ -127,21 +127,23 @@ group by Ticket_Type
 
 --9.How many journeys experienced delays specifically due to signal failures?
 
-'''SELECT COUNT(*) AS Signal_Failure_Delays
+```sql
+SELECT COUNT(*) AS Signal_Failure_Delays
 FROM tickets
-WHERE Journey_Status = 'Delayed' AND Reason_for_Delay = 'Signal Failure'; '''
+WHERE Journey_Status = 'Delayed' AND Reason_for_Delay = 'Signal Failure'; ```sql
 
 
 --10.Which railcard type is associated with the highest average ticket price?
 
 
-'''SELECT top 1 Railcard, AVG(Price) AS Average_Price
+```sql
+SELECT top 1 Railcard, AVG(Price) AS Average_Price
 FROM tickets
 GROUP BY Railcard
-ORDER BY Average_Price DESC '''
+ORDER BY Average_Price DESC ```sql
 
 
 ## Author – Qasim Ali Mahamed
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
 
---End Project
+##End Project
