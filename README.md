@@ -130,7 +130,7 @@ group by Ticket_Type
 ```sql
 SELECT COUNT(*) AS Signal_Failure_Delays
 FROM tickets
-WHERE Journey_Status = 'Delayed' AND Reason_for_Delay = 'Signal Failure'; ```sql
+WHERE Journey_Status = 'Delayed' AND Reason_for_Delay = 'Signal Failure'; 
 
 
 --10.Which railcard type is associated with the highest average ticket price?
@@ -140,7 +140,7 @@ WHERE Journey_Status = 'Delayed' AND Reason_for_Delay = 'Signal Failure'; ```sql
 SELECT top 1 Railcard, AVG(Price) AS Average_Price
 FROM tickets
 GROUP BY Railcard
-ORDER BY Average_Price DESC ```sql
+ORDER BY Average_Price DESC
 
 
 ## Author – Qasim Ali Mahamed
